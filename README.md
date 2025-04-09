@@ -45,7 +45,6 @@ Built with a focus on real-world use cases, SlotSniper is more than a script —
 - 📊 **User Database** – Tracks user history, avoids double-booking
 - 📩 **WhatsApp Confirmation** – Instantly notifies successful booking
 
----
 
 ## 🧰 Tech Stack
 
@@ -61,7 +60,6 @@ Built with a focus on real-world use cases, SlotSniper is more than a script —
 | Notifications    | Twilio WhatsApp API, SMTP         |
 | Deployment       | Railway, Render, EC2, Replit      |
 
----
 
 ## 📁 Folder Structure
 
@@ -82,27 +80,9 @@ SlotSniper/
 └── requirements.txt       # Python dependencies
 ```
 
----
 
 ## 🛠️ Setup Instructions
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/SlotSniper.git
-cd SlotSniper
-
-# 2. Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-# 3. Install required packages
-pip install -r requirements.txt
-
-# 4. Start the Flask Web Interface
-python app.py
-```
-
----
 
 ## 🧪 How it Works
 
@@ -113,7 +93,6 @@ python app.py
 [✓] WhatsApp alert sent instantly on success
 ```
 
----
 
 ## 🔸 Background Architecture (High-Level Overview)
 
