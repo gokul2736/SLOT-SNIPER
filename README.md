@@ -1,6 +1,5 @@
 # SLOT SNIPER
-SlotSniper is a student-built, AI-powered sniper system for SEB slot booking. It auto-scans, auto-snipes, and force-books CIA, Module, and Viva slots — no refreshing, no waiting.You don’t miss here. You dominate.
-
+Slot Sniper is a student-built, AI-powered sniper system for SEB slot booking. It auto-scans, auto-snipes, and force-books CIA, Module, and Viva slots — no refreshing, no waiting.You don’t miss here. You dominate.
 
 # 🎯 SlotSniper
 
@@ -9,11 +8,9 @@ SlotSniper is a student-built, AI-powered sniper system for SEB slot booking. It
 **One shot. One slot. Built for domination.**  
 **Automated. Accurate. Always on Target.**
 
----
-
 ## 📘 Project Overview
 
-**SlotSniper** is a high-precision, student-built automation system developed by **Gokul M** and powered by **ChatGPT AI**, designed to eliminate the slot-booking struggle faced on the SEB platform at **Saveetha Engineering College**.
+**Slot Sniper** is a high-precision, student-built automation system developed by **Gokul M** and powered by **ChatGPT AI**, designed to eliminate the slot-booking struggle faced on the SEB platform at **Saveetha Engineering College**.
 
 It doesn’t guess. It doesn’t hope. It executes.
 
@@ -22,7 +19,7 @@ It doesn’t guess. It doesn’t hope. It executes.
 
 No more hitting refresh. No more rage. No more “better luck next time.”
 
-Just code. Speed. And a booked slot.
+Just one shot one slot.
 
 The platform releases all weekly slots — **CIA**, **Module**, and **Viva** — in a bulk drop. These get filled in seconds. SlotSniper operates at the protocol level: monitoring DOM elements, scanning for any sudden changes, and executing bookings before a human can react.
 
@@ -127,21 +124,6 @@ python app.py
 - 📬 **Notification:** WhatsApp via Twilio
 - 🛡️ **Security:** Encrypted credentials (Fernet)
 
-```mermaid
-flowchart TD
-    A[User Web Interface] --> B[Submit Preferences]
-    B --> C[Sniper Engine (Local)]
-    C --> D[Backend Flask Server]
-    D --> E[Check Slot Map (Redis/Firebase)]
-    E --> F[Slot Available?]
-    F -- Yes --> G[Trigger Selenium Bot]
-    G --> H[Book Slot]
-    H --> I[Update Server DB]
-    I --> J[Send WhatsApp Confirmation]
-    F -- No --> K[Wait + Rescan]
-```
-
----
 
 ## 🔒 Security & Ethics
 
@@ -152,14 +134,12 @@ flowchart TD
 - Does not bypass login or violate rules
 - Data stored securely; not shared
 
----
 
 ## 👨‍💻 Developers
 
-- **Gokul M** – Student, Saveetha Engineering College | Project Lead
+- **Gokul M** – Student, Project Lead
 - **ChatGPT AI** – Co-developer, System Designer
 
----
 
 ## 📢 Future Roadmap
 
@@ -170,15 +150,10 @@ flowchart TD
 - [ ] AI-based booking prediction
 - [ ] Integration with **CAMU Student App** for centralized booking across systems
 
----
-
 ## 🧠 Real-World Triggers Captured
 
 - 🔀 Someone cancels → slot freed → **BOOM! Booked**
 - 🤚 New slot appears → **BOOM! Sniped**
 - ⚠️ SEB reset glitch → new slot opens → **BOOM! Grabbed**
-
-Let’s dominate the booking war. 🎯  
+ 
 **You don’t miss here. You dominate.**
-
-
