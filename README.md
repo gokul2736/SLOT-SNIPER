@@ -1,7 +1,7 @@
 # SLOT SNIPER
 Slot Sniper is a student-built, AI-powered sniper system for SEB slot booking. It auto-scans, auto-snipes, and force-books CIA, Module, and Viva slots — no refreshing, no waiting.You don’t miss here. You dominate.
 
-# 🎯 SlotSniper
+# 🎯 Slot Sniper
 
 ### 🔫 Precision Slot Booking for SEB – Built by a Student, for Students  
 **Made by a student. For every student who’s tired of missing their shot.**  
