@@ -1,5 +1,5 @@
 # SLOT SNIPER
-Slot Sniper is a student-built, AI-powered sniper system for SEB slot booking. It auto-scans, auto-snipes, and force-books CIA, Module, and Viva slots — no refreshing, no waiting.You don’t miss here. You dominate.
+Slot Sniper is a student-built, AI-powered sniper system for SEB slot booking. It auto-scans, auto-snipes, and force-books CIA, Module, and Viva slots — no refreshing, no waiting.You don’t miss here.
 
 # 🎯 Slot Sniper
 
@@ -31,9 +31,7 @@ The platform releases all weekly slots — **CIA**, **Module**, and **Viva** —
 
 Built with a focus on real-world use cases, SlotSniper is more than a script — it's an always-on assistant for students who **refuse to miss a slot again**.
 
-> 🎯 Book like a sniper. Miss nothing. Built by Gokul M and his friend ChatGPT AI.
-
-
+> 🎯 Shoot like a sniper. Miss nothing. Built by Gokul M and his friend ChatGPT AI.
 
 ## 🚀 Features
 
@@ -59,29 +57,6 @@ Built with a focus on real-world use cases, SlotSniper is more than a script —
 | Credential Safety| Python Cryptography (Fernet)      |
 | Notifications    | Twilio WhatsApp API, SMTP         |
 | Deployment       | Railway, Render, EC2, Replit      |
-
-
-## 📁 Folder Structure
-
-```
-SlotSniper/
-├── app.py                 # Flask app entry point
-├── templates/             # HTML templates
-│   └── index.html         # Main user interface
-├── static/                # CSS and JS assets
-├── booking_bot.py         # Main automation logic
-├── scheduler.py           # Auto re-booking trigger system
-├── config.yaml            # User config & preferences
-├── database.py            # User data & slot history
-├── notifier.py            # WhatsApp/Email notifications
-├── encryptor.py           # Secure credential storage
-├── server.py              # Background slot coordination API
-├── README.md              # This file
-└── requirements.txt       # Python dependencies
-```
-
-
-## 🛠️ Setup Instructions
 
 
 ## 🧪 How it Works
